@@ -10,7 +10,7 @@ import slide5 from "../assets/home/slide5.jpg";
 
 const Category = () => {
   return (
-    <div>
+    <div className="my-10">
       <Swiper
         slidesPerView={4}
         spaceBetween={30}
