@@ -7,10 +7,17 @@ import slide2 from "../assets/home/slide2.jpg";
 import slide3 from "../assets/home/slide3.jpg";
 import slide4 from "../assets/home/slide4.jpg";
 import slide5 from "../assets/home/slide5.jpg";
+import SectionTitle from "./SectionTitle";
 
 const Category = () => {
   return (
     <div className="my-10">
+      <div className="text-center my-5">
+        <SectionTitle
+        subHeading={"From 11.00am to 10pm"}
+        heading={"Order Online"}
+        ></SectionTitle>
+      </div>
       <Swiper
         slidesPerView={4}
         spaceBetween={30}
