@@ -4,7 +4,6 @@ import featuredImg from "../assets/home/featured.jpg";
 const FeaturedItem = () => {
   return (
     <div className="my10 bg-[url('https://i.postimg.cc/nzDDS55q/featured.jpg')] bg-fixed text-white ">
-
       <div className="py-6">
         <SectionTitle
           subHeading={"Check it out"}
@@ -22,7 +21,9 @@ const FeaturedItem = () => {
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus
             asperiores harum, libero laborum cumque nostrum.
           </p>
-          <button className="btn btn-outline border-0 border-b-4">Order Now</button>
+          <button className="btn btn-outline border-0 border-b-4">
+            Order Now
+          </button>
         </div>
       </div>
     </div>
