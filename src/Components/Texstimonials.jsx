@@ -11,7 +11,7 @@ import '@smastrom/react-rating/style.css'
 const Texstimonials = () => {
   const [revew, setRevew] = useState([]);
   useEffect(() => {
-    fetch(`revew.json`)
+    fetch(`http://localhost:5010/revews`)
       .then((res) => res.json())
       .then((data) => setRevew(data));
   }, []);
